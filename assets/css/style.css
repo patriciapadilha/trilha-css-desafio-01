@@ -168,21 +168,31 @@ footer {
 /* MOBILE */
 
 @media (max-width: 800px) {
-  header .banner {
-    width: 100vw;
+  .banner-content {
+    width: 80vw;
+    text-align: center;
   }
 
   #course-content {
-    height: 500px;
+    height: 550px;
+  }
+
+  #course-content h2 {
+    margin-top: 50px;
   }
 
   #course-content p {
-    width: 400px;
+    width: 350px;
   }
 
   .module {
-    width: 400px;
-    height: 100px;
+    width: 350px;
+    height: 80px;
+    font-size: 12px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   #transform-world {
@@ -199,6 +209,8 @@ footer {
   }
 
   #professional-challenges p {
-    width: 400px;
+    width: 350px;
   }
 }
+
+
